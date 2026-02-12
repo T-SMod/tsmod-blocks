@@ -639,6 +639,14 @@ export default [
     category: "control",
   },
   {
+    id: "SENSING_ALERT",
+    selector: "alert:",
+    spec: "alert %1",
+    inputs: ["%s"],
+    shape: "stack",
+    category: "sensing",
+  },
+  {
     id: "SENSING_ASKANDWAIT",
     selector: "doAsk",
     spec: "ask %1 and wait",

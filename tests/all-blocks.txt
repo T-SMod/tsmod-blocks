@@ -201,6 +201,7 @@ delete this clone
 <color [#f0f] is touching [#0f0]?>
 (distance to [ v])
 
+alert [Hello!]
 ask [What's your name?] and wait
 (answer)
 
