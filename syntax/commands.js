@@ -647,6 +647,22 @@ export default [
     category: "sensing",
   },
   {
+    id: "SENSING_PROMPT",
+    selector: "confirm:",
+    spec: "prompt %1 with default value %2",
+    inputs: ["%s", "%s"],
+    shape: "reporter",
+    category: "sensing",
+  },
+  {
+    id: "SENSING_CONFIRM",
+    selector: "confirm:",
+    spec: "confirm %1",
+    inputs: ["%s"],
+    shape: "boolean",
+    category: "sensing",
+  },
+  {
     id: "SENSING_ASKANDWAIT",
     selector: "doAsk",
     spec: "ask %1 and wait",
